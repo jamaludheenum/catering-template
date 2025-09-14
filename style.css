@@ -1,0 +1,48 @@
+
+    nav {
+      border-bottom: 1px solid grey;
+    }
+    .bgdiv {
+      width: 100%;
+      height: 80vh;
+      background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOr19bY81Ohhl9usx9PnUXaCyJv_iX7SZCqatJuixNEdTSHdZyDtGDFnGhoD5dfPFn_xZc5pixChadPNfQWvfoTw9t-Llnn-gLFajrfmPJOV2B-sbCGzOIoYJe_9nwp6hUuqBL0VtIglVcFdKxUZhpS_wrC6-LOHwFxHmQ4TsO0Sya3UaJ1jUAi8YqeI_H/w1200-h630-p-k-no-nu/freddie-marriage-X9Za3VjKIgc-unsplash-burger.jpg");
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+    .bgdiv .ct {
+      position: absolute;
+      bottom: 1rem;
+      left: 1rem;
+      font-size: 2rem;
+      color: rgb(80, 76, 76);
+    }
+    .heading {
+      letter-spacing: 1.5px;
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    .sub-head {
+      font-size: 1rem;
+      text-align: center;
+    }
+    .g {
+      color: grey;
+    }
+    input {
+      margin-bottom: 1.2rem;
+    }
+
+    @media (max-width:300px)
+    {
+    .about-img{
+      width: 30vw;
+      height: 100vh;
+    }
+    .menu-img{
+      height: 100vh;
+      width: 100vw;
+    }
+ 
+    }
